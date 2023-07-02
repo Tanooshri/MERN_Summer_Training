@@ -1,0 +1,20 @@
+/* Write a JS Function to validate Phone Number 
+Only number and must be 10 digit long */
+undefined
+function validatePhone(Num){
+    var regex = /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}/;
+    var phoneNum =  Num.match(regex);
+    if(phoneNum){
+        console.log("Valid");
+    }
+    else{
+        console.log("Invalid");
+    }
+}
+function main(){
+    var Num = prompt("Enter the Num");
+    validatePhone(Num);
+}
+main();
+VM108:8 Invalid
+undefined

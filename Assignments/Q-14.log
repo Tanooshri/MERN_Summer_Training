@@ -1,0 +1,45 @@
+function compute(bs){
+    var HRA = function(){
+        return bs*0.30;
+    }
+    var DA = function(){
+        return bs*0.10;
+    }
+    var TA = function(){
+        return bs*0.20;
+    }
+   
+    return {HRA,DA,TA};
+}
+function print(id,name,bs,compute){
+    console.log("Your id is: "+id);
+    console.log("Your Name is: "+name);
+    console.log("Your basic Salary is: "+bs);
+    console.log("HRA : "+compute(bs).HRA());
+    console.log("DA : "+compute(bs).DA());
+    console.log("TA : "+compute(bs).TA());
+    var gs = parseInt(bs)+parseInt(compute(bs).HRA())+parseInt(compute(bs).DA())+parseInt(compute(bs).TA());
+    console.log("GS : "+gs);
+    var tax = gs*0.10;
+    console.log("Tax : "+tax);
+    var Ns = gs-tax;
+    console.log("NS : "+Ns);
+}
+function SalarySlip(){
+var id = prompt("Enter Id");
+var name = prompt("Enter the Name");
+var bs = prompt("Enter the basic salary");
+    
+    print(id,name,bs,compute);
+}
+SalarySlip();
+VM21:15 Your id is: 1001
+VM21:16 Your Name is: Tanushri
+VM21:17 Your basic Salary is: 10000
+VM21:18 HRA : 3000
+VM21:19 DA : 1000
+VM21:20 TA : 2000
+VM21:22 GS : 16000
+VM21:24 Tax : 1600
+VM21:26 NS : 14400
+undefined

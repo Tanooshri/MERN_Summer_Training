@@ -1,0 +1,19 @@
+//Write a JavaScript program to get the current date.
+//Expected Output :
+//mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
+undefined
+const d= new Date('28 June,2023');
+console.log(d.getDate()+d.getMonth()+d.getFullYear());
+
+VM507:2 2056
+undefined
+const d= new Date('28 June,2023');
+console.log(d.getDate()+"-"+d.getMonth()+"-"+d.getFullYear());
+
+VM522:2 28-5-2023
+undefined
+const d= new Date();
+console.log(d.getDate()+"-"+d.getMonth()+"-"+d.getFullYear());
+
+VM539:2 28-5-2023
+undefined

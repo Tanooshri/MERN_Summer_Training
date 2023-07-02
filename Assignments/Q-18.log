@@ -1,0 +1,112 @@
+/* 3. Write a function that takes a string as input and returns the number of vowels (a, e, i, o, u) in the string.
+Count of vowels in string;
+ex:- str = "brainmentors"
+		output: count = 4 */
+undefined
+function(s){
+    var arr = s.split(); 
+    
+VM144:1 Uncaught SyntaxError: Function statements require a function name
+function(s){
+    var arr = s.split(); 
+    arr.filter(e=>e=='a' || e=='e' || e=='i' || e=='o' || e=='u');
+    
+VM264:1 Uncaught SyntaxError: Function statements require a function name
+function findVowel(s){
+    var arr = s.split(); 
+    var h=arr.filter(e=>e=='a' || e=='e' || e=='i' || e=='o' || e=='u');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM367:4 0
+undefined
+function findVowel(s){
+    var arr = s.split(); 
+    var h=arr.filter(e=>e=='a' && e=='e' && e=='i' && e=='o' && e=='u');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM388:4 0
+undefined
+function findVowel(s){
+    var arr = s.split(); 
+    var h=arr.filter(e=>e=='a');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM409:4 0
+undefined
+function findVowel(s){
+    var arr = s.split(); 
+    var h=arr.filter(e=>e =='a');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM412:4 0
+undefined
+function findVowel(s){
+    var arr = s.split();
+    console.log(arr);
+    var h=arr.filter(e=>e =='a');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM440:3 ['brainmentors']
+VM440:5 0
+undefined
+function findVowel(s){
+    var arr = s.split(""); 
+    var h=arr.filter(e=>e=='a' && e=='e' && e=='i' && e=='o' && e=='u');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM450:4 0
+undefined
+function findVowel(s){
+    var arr = s.split(""); 
+    var h=arr.filter(e=>e=='a' && e=='e' && e=='i' && e=='o' && e=='u');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM452:4 0
+undefined
+function findVowel(s){
+    var arr = s.split("");
+    console.log(arr);
+    var h=arr.filter(e=>e=='a' && e=='e' && e=='i' && e=='o' && e=='u');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM477:3 (12) ['b', 'r', 'a', 'i', 'n', 'm', 'e', 'n', 't', 'o', 'r', 's']
+VM477:5 0
+undefined
+function findVowel(s){
+    var arr = s.split("");
+    console.log(arr);
+    var h=arr.filter(e=>e=='a');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM496:3 (12) ['b', 'r', 'a', 'i', 'n', 'm', 'e', 'n', 't', 'o', 'r', 's']
+VM496:5 1
+undefined
+function findVowel(s){
+    var arr = s.split("");
+    console.log(arr);
+    var h=arr.filter(e=>e=='a' || e=='e' || e=='i' || e=='o' || e=='u');
+    console.log(h.length);
+}
+findVowel("brainmentors");
+    
+VM581:3 (12) ['b', 'r', 'a', 'i', 'n', 'm', 'e', 'n', 't', 'o', 'r', 's']
+VM581:5 4
+undefined

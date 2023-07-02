@@ -1,0 +1,20 @@
+function MaxandMin(arr){
+    var Max = Number.MIN_VALUE;
+    var Min = Number.MAX_VALUE;
+    for(var i=0;i<arr.length;i++){
+        Max = Math.max(Max,arr[i]);
+        Min = Math.min(Min,arr[i]);
+    }
+    return [Max,Min];
+}
+function compute(){
+    var arr = [10,3,15,-1,9,6];
+    var arr1 = MaxandMin(arr);
+   console.log("maxno : "+arr1[0]);
+   console.log("minno : "+arr1[1]);
+    
+}
+compute();
+VM81:13 maxno : 15
+VM81:14 minno : -1
+undefined

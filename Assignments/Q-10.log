@@ -1,0 +1,86 @@
+/*  Write a JS Function to find the occurrence of each character in JS
+Input : “brain mentors”
+O/P : b 1
+r 2
+A 1
+I 1
+N 2
+M 1
+E 1
+T 1
+O 1
+S 1
+*/
+undefined
+function getOccurrence(string){
+    var occurrence = {};
+    for(var i=0;i<string.length;i++){
+        var character = string.charAt(i);
+    
+VM343:5 Uncaught SyntaxError: Unexpected end of input
+function getOccurrence(string){
+    var occurrence = {};
+    for(var i=0;i<string.length;i++){
+        var character = string.charAt(i);
+        if(occurrence[character]){
+            occurrence[character]++;
+        }else{
+    
+VM412:8 Uncaught SyntaxError: Unexpected end of input
+function getOccurrence(string){
+    var occurrence = {};
+    for(var i=0;i<string.length;i++){
+        var character = string.charAt(i);
+        if(occurrence[character]){
+            occurrence[character]++;
+        }else{
+            occurrence[character]=1;
+        }
+    }
+}
+getOccurrence("brain mentors");
+    
+undefined
+function getOccurrence(string){
+    var occurrence = {};
+    for(var i=0;i<string.length;i++){
+        var character = string.charAt(i);
+        if(occurrence[character]){
+            occurrence[character]++;
+        }else{
+            occurrence[character]=1;
+        }
+    }
+    for(var i=0;i<string.length;i++){
+}
+getOccurrence("brain mentors");
+    
+VM694:14 Uncaught SyntaxError: Unexpected end of input
+function getOccurrence(string){
+    var occurrence = {};
+    for(var i=0;i<string.length;i++){
+        var character = string.charAt(i);
+        if(occurrence[character]){
+            occurrence[character]++;
+        }else{
+            occurrence[character]=1;
+        }
+    }
+    for(var key in occurrence){
+        console.log(key,occurrence[key]);
+    }
+}
+getOccurrence("brain mentors");
+    
+VM1016:12 b 1
+VM1016:12 r 2
+VM1016:12 a 1
+VM1016:12 i 1
+VM1016:12 n 2
+VM1016:12   1
+VM1016:12 m 1
+VM1016:12 e 1
+VM1016:12 t 1
+VM1016:12 o 1
+VM1016:12 s 1
+undefined

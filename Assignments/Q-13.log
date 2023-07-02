@@ -1,0 +1,45 @@
+/* Given two strings, return true if they are anagrams of one another
+
+For example: Mary is an anagram of Army
+*/
+function checkAnagram(s1,s2){
+    if(s1.length!=s1.length){
+        return false;
+    }
+     var occurence = {};
+    for(var i=0;i<s1.length;i++){
+        var key1 = s1.charAt(i);
+        if(occurence[key1]){
+            occurence[key1]++;
+        }else{
+            occurence[key1]=1;
+        }
+    }
+    for(var i=0;i<s2.length;i++){
+        var key2 = s2.charAt(i);
+        if(key2 in occurence){
+            occurence[key2]--;
+        }else{
+            return false;
+        }
+    }
+    var keys = Object.values(occurence);
+    for(var i =0;i<keys.length;i++){
+        if(keys[i]!=0){
+            return false;
+        }
+    }
+        return true;
+ }
+function main() {
+    var s1 = prompt("enter String s1");
+    var s2 = prompt("enter String s2");
+    if(checkAnagram(s1,s2)){
+        console.log("strings are anagram");
+    }else{
+        console.log("Not anagram");
+    }
+}
+    main();
+VM23:40 Not anagram
+undefined

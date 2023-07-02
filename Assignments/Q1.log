@@ -1,0 +1,126 @@
+//1.Write a JavaScript program to display the current day and time in the following format.
+Today is : wednesday.
+Current time is : 10 PM : 30 : 38
+
+VM29:2 Uncaught SyntaxError: Unexpected identifier 'is'
+//1.Write a JavaScript program to display the current day and time in the following format.
+//Today is : wednesday.
+//Current time is : 10 PM : 30 : 38
+
+undefined
+date;
+VM49:1 Uncaught ReferenceError: date is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM49:1
+DAte;
+VM61:1 Uncaught ReferenceError: DAte is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM61:1
+Date;
+ƒ Date() { [native code] }
+typeod Date;
+VM118:1 Uncaught SyntaxError: Unexpected identifier 'Date'
+typeof Date;
+'function'
+const day = new Date('28 june,2023');
+const Today = day.getday();
+console.log("Today is :"+Today); 
+VM425:2 Uncaught TypeError: day.getday is not a function
+    at <anonymous>:2:19
+(anonymous) @ VM425:2
+const day = new Date('28 june,2023');
+const Today = day.getDayay();
+console.log("Today is :"+Today); 
+VM435:2 Uncaught TypeError: day.getDayay is not a function
+    at <anonymous>:2:19
+(anonymous) @ VM435:2
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+console.log("Today is :"+Today); 
+VM441:3 Today is :3
+undefined
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+console.log("Today is :"+Today); 
+VM443:3 Today is :3
+undefined
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]); 
+VM631:4 Today is :Wednesday
+undefined
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.getTime().toString());
+VM1014:4 Today is :Wednesday
+VM1014:5 Current Time is:1687890600000
+undefined
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.gethour().toString());
+VM1026:4 Today is :Wednesday
+VM1026:5 Uncaught TypeError: day.gethour is not a function
+    at <anonymous>:5:36
+(anonymous) @ VM1026:5
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.getHours());
+VM1081:4 Today is :Wednesday
+VM1081:5 Current Time is:0
+undefined
+const day = new Date();
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.timenow());
+VM1191:4 Today is :Wednesday
+VM1191:5 Uncaught TypeError: day.timenow is not a function
+    at <anonymous>:5:36
+(anonymous) @ VM1191:5
+const day = new Date('28 june,2023');
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.gethour()+day.getMinutes()+day.getSeconds());
+VM1558:4 Today is :Wednesday
+VM1558:5 Uncaught TypeError: day.gethour is not a function
+    at <anonymous>:5:36
+(anonymous) @ VM1558:5
+const day = new Date();
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.getHour()+day.getMinutes()+day.getSeconds());
+VM1578:4 Today is :Wednesday
+VM1578:5 Uncaught TypeError: day.getHour is not a function
+    at <anonymous>:5:36
+(anonymous) @ VM1578:5
+const day = new Date();
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.getHours()+day.getMinutes()+day.getSeconds());
+VM1596:4 Today is :Wednesday
+VM1596:5 Current Time is:134747
+undefined
+const day = new Date();
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.getHours()=":"+day.getMinutes()+":"+day.getSeconds());
+VM1611:5 Uncaught SyntaxError: Invalid left-hand side in assignment
+const day = new Date();
+const Today = day.getDay();
+const daynames =["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+console.log("Today is :"+daynames[Today]);
+console.log("Current Time is:"+day.getHours()+":"+day.getMinutes()+":"+day.getSeconds());
+VM1619:4 Today is :Wednesday
+VM1619:5 Current Time is:13:48:36
+undefined

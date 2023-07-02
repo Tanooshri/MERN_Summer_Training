@@ -1,0 +1,20 @@
+var a = "brainmentor";
+for(var i=0;i<a.length;i++){
+    var x = a.substring(0,a.length-1);
+    var y = a.substring(a.length-1);
+    var z = y+x;
+    console.log(z);
+    a=z;
+}
+VM63:6 rbrainmento
+VM63:6 orbrainment
+VM63:6 torbrainmen
+VM63:6 ntorbrainme
+VM63:6 entorbrainm
+VM63:6 mentorbrain
+VM63:6 nmentorbrai
+VM63:6 inmentorbra
+VM63:6 ainmentorbr
+VM63:6 rainmentorb
+VM63:6 brainmentor
+'brainmentor'

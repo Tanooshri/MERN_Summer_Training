@@ -1,0 +1,7 @@
+
+const l = prompt("Enter Length");
+const b = prompt("Enter breadth");
+console.log("Area is ="+l*b+"Perimeter is ="+2*(l+b));
+
+VM662:4 Area is =12Perimeter is =68
+undefined

@@ -1,0 +1,41 @@
+/* Write a JS Function to validate Email Address
+Must contains @
+Must ends with .com/.org/.edu*/
+undefined
+function validateEmail(email){
+    var regex = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
+    var vemail = email.match(regex);
+    if(vemail){
+        console,log("Valid Email");
+    }else{
+        console.log("Invalid Email");
+    }
+}
+function main(){
+    var email = prompt("Enter Your Mail");
+    validateEmail(email);
+}
+main();
+VM104:5 Uncaught ReferenceError: log is not defined
+    at validateEmail (<anonymous>:5:17)
+    at main (<anonymous>:12:5)
+    at <anonymous>:14:1
+validateEmail @ VM104:5
+main @ VM104:12
+(anonymous) @ VM104:14
+function validateEmail(email){
+    var regex = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
+    var vemail = email.match(regex);
+    if(vemail){
+        console.log("Valid Email");
+    }else{
+        console.log("Invalid Email");
+    }
+}
+function main(){
+    var email = prompt("Enter Your Mail");
+    validateEmail(email);
+}
+main();
+VM111:5 Valid Email
+undefined

@@ -1,0 +1,231 @@
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+for(var i=2000;i<=2030;i++){
+    const d = new Date(1 jan,i);
+    const day = d.getDay();
+}
+
+    
+VM449:3 Uncaught SyntaxError: missing ) after argument list
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+for(var i=2000;i<=2030;i++){
+    const d = new Date(1 jan,i);
+    const day = d.getDay();
+    if(day == Day
+}
+
+    
+VM492:3 Uncaught SyntaxError: missing ) after argument list
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+for(var i=2000;i<=2030;i++){
+    const d = new Date(1 jan,i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+    
+VM547:3 Uncaught SyntaxError: missing ) after argument list
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+for(var i=2000;i<=2030;i++){
+    const d = new Date(1, jan,i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+    
+VM554:3 Uncaught ReferenceError: jan is not defined
+    at <anonymous>:3:27
+(anonymous) @ VM554:3
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+for(var i=2000;i<=2030;i++){
+    const d = new Date(1, january,i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+    
+VM588:3 Uncaught ReferenceError: january is not defined
+    at <anonymous>:3:27
+(anonymous) @ VM588:3
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+for(var i=2000;i<=2030;i++){
+    const d = new Date(1 ,1,i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+    
+undefined
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+function printYear(Daynames){
+for(var i=2000;i<=2030;i++){
+    const d = new Date('1 January',i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+}
+printYear();
+
+    
+VM768:6 Uncaught TypeError: Cannot read properties of undefined (reading '0')
+    at printYear (<anonymous>:6:23)
+    at <anonymous>:11:1
+printYear @ VM768:6
+(anonymous) @ VM768:11
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+function printYear(Daynames){
+for(var i=2000;i<=2030;i++){
+    const d = new Date('1 January',i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+}
+printYear(Daynames);
+
+    
+undefined
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+
+for(var i=2000;i<=2030;i++){
+    const d = new Date('1 January',i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+
+    
+undefined
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+
+for(var i=2000;i<=2030;i++){
+    const d = new Date('1 January',i);
+    const day = d.getDay();
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+
+    
+undefined
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+
+for(var i=2000;i<=2030;i++){
+    const d = new Date('1 January',i);
+    const day = d.getDay();
+    console.log(day);
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+
+    
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+VM915:6 NaN
+undefined
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+
+for(var i=2000;i<=2030;i++){
+    const d = new Date(i,1,1);
+    const day = d.getDay();
+    console.log(day);
+    if(day == Daynames[0]){
+        console.log(i);
+    }
+}
+
+
+    
+VM955:6 2
+VM955:6 4
+VM955:6 5
+VM955:6 6
+VM955:6 0
+VM955:6 2
+VM955:6 3
+VM955:6 4
+VM955:6 5
+VM955:6 0
+VM955:6 1
+VM955:6 2
+VM955:6 3
+VM955:6 5
+VM955:6 6
+VM955:6 0
+VM955:6 1
+VM955:6 3
+VM955:6 4
+VM955:6 5
+VM955:6 6
+VM955:6 1
+VM955:6 2
+VM955:6 3
+VM955:6 4
+VM955:6 6
+VM955:6 0
+VM955:6 1
+VM955:6 2
+VM955:6 4
+VM955:6 5
+undefined
+const Daynames=["Sunday","Monday","Tuesday","Wednesday","thrusday","friday","Saturday"];
+
+for(var i=2000;i<=2030;i++){
+    const d = new Date(i,1,1);
+    const day = d.getDay();
+   // console.log(day);
+    if(Daynames[day] == Daynames[0]){
+        console.log(i);
+    }
+}
+
+
+    
+VM977:8 2004
+VM977:8 2009
+VM977:8 2015
+VM977:8 2026
+undefined

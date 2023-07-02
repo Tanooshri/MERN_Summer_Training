@@ -1,0 +1,25 @@
+/*Write a function to find the second largest number in an array.
+
+ex:- var arr = [12,4,6,9,2,15,3,9];
+		
+		output second largest : 12*/
+function secondLargest(arr){
+    var largest = Number.MIN_VALUE;
+    var secondlargest = Number.MIN_VALUE;
+    for(var i=0;i<arr.length;i++){
+        largest = Math.max(arr[i],largest);
+        }
+    for(var i=0;i<arr.length;i++){
+        if(arr[i]!=largest){
+            secondlargest = Math.max(arr[i],secondlargest);
+        }
+    }
+    return secondlargest;
+}
+function main(){
+    var arr = [12,4,6,9,2,15,3,9];
+    console.log(secondLargest(arr));
+}
+main();
+VM28:21 12
+undefined

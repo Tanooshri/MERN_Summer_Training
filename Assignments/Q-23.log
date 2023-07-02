@@ -1,0 +1,93 @@
+/* 8.Write a function to rotate an array by a given number of steps to the right.
+
+ex:- arr = [1,2,3,4,5];
+		step = 2;
+
+ output = [5,4,1,2,3] */
+undefined
+var arr = [1,2,3,4,5];
+var step = 2;
+for(var i=0;i<t;i++){
+    arr = unshift(pop());
+}
+arr;
+VM305:3 Uncaught ReferenceError: t is not defined
+    at <anonymous>:3:15
+(anonymous) @ VM305:3
+var arr = [1,2,3,4,5];
+var step = 2;
+for(var i=0;i<step;i++){
+    arr = unshift(pop());
+}
+arr;
+VM322:4 Uncaught ReferenceError: unshift is not defined
+    at <anonymous>:4:5
+(anonymous) @ VM322:4
+var arr = [1,2,3,4,5];
+var step = 2;
+for(var i=0;i<step;i++){
+    arr = arr.unshift(pop());
+}
+arr;
+VM334:4 Uncaught ReferenceError: pop is not defined
+    at <anonymous>:4:15
+(anonymous) @ VM334:4
+var arr = [1,2,3,4,5];
+var step = 2;
+for(var i=0;i<step;i++){
+    arr = arr.unshift(arr.pop());
+}
+arr;
+VM347:4 Uncaught TypeError: arr.pop is not a function
+    at <anonymous>:4:27
+(anonymous) @ VM347:4
+var arr = [1,2,3,4,5];
+var step = 2;
+for(var i=0;i<step;i++){
+    arr = arr.unshift(arr.slice(arr.length-1));
+}
+arr;
+VM407:4 Uncaught TypeError: arr.slice is not a function
+    at <anonymous>:4:27
+(anonymous) @ VM407:4
+var arr = [1,2,3,4,5];
+var step = 2;
+function rotate(step,arr){
+for(var i=0;i<step;i++){
+    console.log(arr.unshift());
+    arr = arr.unshift(arr.slice(arr.length-1));
+}
+}
+rotate(step,arr);
+
+VM696:5 5
+VM696:5 Uncaught TypeError: arr.unshift is not a function
+    at rotate (<anonymous>:5:21)
+    at <anonymous>:9:1
+rotate @ VM696:5
+(anonymous) @ VM696:9
+var arr = [1,2,3,4,5];
+var step = 2;
+function rotate(step,arr){
+for(var i=0;i<step;i++){
+    console.log(arr.unshift());
+   // arr = arr.unshift(arr.slice(arr.length-1));
+}
+}
+rotate(step,arr);
+
+VM700:5 5
+VM700:5 5
+undefined
+var arr = [1,2,3,4,5];
+var step = 2;
+for(var i=0;i<step;i++){
+    arr.unshift(arr.pop());
+    console.log(arr);
+   // arr = arr.unshift(arr.slice(arr.length-1));
+}
+
+
+VM920:5 (5) [5, 1, 2, 3, 4]
+VM920:5 (5) [4, 5, 1, 2, 3]
+undefined
